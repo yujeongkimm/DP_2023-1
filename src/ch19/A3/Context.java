@@ -1,3 +1,5 @@
+package ch19.A3;
+
 public interface Context {
     public abstract void setClock(int hour);			// 시간 설정 
     public abstract void changeState(State state);		// 상태 변화 

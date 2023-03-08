@@ -1,3 +1,5 @@
+package ch16.Sample;
+
 import java.awt.CheckboxGroup;
 import java.awt.Color;
 import java.awt.Frame;

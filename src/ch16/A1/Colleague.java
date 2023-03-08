@@ -1,3 +1,5 @@
+package ch16.A1;
+
 public interface Colleague {
     // Mediator를 설정한다 
     public abstract void setMediator(Mediator mediator);

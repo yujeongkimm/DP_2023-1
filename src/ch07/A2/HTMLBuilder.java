@@ -1,3 +1,5 @@
+package ch07.A2;
+
 import java.io.*;
 
 public class HTMLBuilder extends Builder {

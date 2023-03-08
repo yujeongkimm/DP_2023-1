@@ -1,3 +1,5 @@
+package ch11.A2;
+
 public class Main {
     public static void main(String[] args) {
         Directory rootdir = new Directory("root");

@@ -1,3 +1,5 @@
+package ch20.A1;
+
 public class BigString {
     // 큰 문자의 배열 
     private BigChar[] bigchars;

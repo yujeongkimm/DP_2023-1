@@ -1,3 +1,5 @@
+package ch19.A1;
+
 public class Main {
     public static void main(String[] args) {
         SafeFrame frame = new SafeFrame("State Sample");

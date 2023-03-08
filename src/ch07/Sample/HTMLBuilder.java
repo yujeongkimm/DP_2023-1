@@ -1,3 +1,5 @@
+package ch07.Sample;
+
 import java.io.*;
 
 public class HTMLBuilder extends Builder {

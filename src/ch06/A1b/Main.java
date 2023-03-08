@@ -1,5 +1,7 @@
-import framework.Manager;
-import framework.Product;
+package ch06.A1b;
+
+import ch06.A1b.framework.Manager;
+import ch06.A1b.framework.Product;
 
 public class Main {
     public static void main(String[] args) {

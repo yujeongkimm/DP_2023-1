@@ -1,3 +1,5 @@
+package ch07.Sample;
+
 public class Director {
     private Builder builder;
 

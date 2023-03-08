@@ -1,3 +1,5 @@
+package ch12.Q2;
+
 public class StringDisplay extends Display {
     private String string; // 표시 문자열 
 

@@ -1,6 +1,8 @@
-import framework.Factory;
-import framework.Product;
-import idcard.IDCardFactory;
+package ch04.A2;
+
+import ch04.A2.framework.Factory;
+import ch04.A2.framework.Product;
+import ch04.A2.idcard.IDCardFactory;
 
 public class Main {
     public static void main(String[] args) {

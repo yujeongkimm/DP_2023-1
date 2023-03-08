@@ -1,7 +1,7 @@
-package idcard;
+package ch04.Sample.idcard;
 
-import framework.Factory;
-import framework.Product;
+import ch04.Sample.framework.Factory;
+import ch04.Sample.framework.Product;
 
 public class IDCardFactory extends Factory {
     @Override

@@ -1,3 +1,5 @@
+package ch05.Sample;
+
 public class Singleton {
     private static Singleton singleton = new Singleton();
 

@@ -1,3 +1,5 @@
+package ch14.A3;
+
 public class Trouble {
     private int number; // 트러블 번호 
 

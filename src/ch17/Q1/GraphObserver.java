@@ -1,3 +1,5 @@
+package ch17.Q1;
+
 public class GraphObserver implements Observer {
     @Override
     public void update(NumberGenerator generator) {

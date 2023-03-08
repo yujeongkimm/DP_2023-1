@@ -1,3 +1,5 @@
+package ch01.A1;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 

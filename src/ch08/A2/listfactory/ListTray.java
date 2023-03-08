@@ -1,7 +1,7 @@
-package listfactory;
+package ch08.A2.listfactory;
 
-import factory.Tray;
-import factory.Item;
+import ch08.A2.factory.Tray;
+import ch08.A2.factory.Item;
 
 public class ListTray extends Tray {
     public ListTray(String caption) {

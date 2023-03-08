@@ -1,3 +1,5 @@
+package ch14.A3;
+
 public class NoSupport extends Support {
     public NoSupport(String name) {
         super(name);

@@ -1,15 +1,15 @@
-…
+package ch13.Q3;
 
 class MyFileVisitor extends SimpleFileVisitor<Path> {
-    … preVisitDirectory(Path dir, …) throws IOException {
-        System.out.println("dir: " + dir);
-        return FileVisitResult.CONTINUE;
-    }
+//    preVisitDirectory(Path dir) throws IOException {
+//        System.out.println("dir: " + dir);
+//        return FileVisitResult.CONTINUE;
+//    }
 
-    … visitFile(Path file, …) throws IOException {
-        System.out.println("file: " + file);
-        return FileVisitResult.CONTINUE;
-    }
+//    visitFile(Path file, …) throws IOException {
+//        System.out.println("file: " + file);
+//        return FileVisitResult.CONTINUE;
+//    }
 }
 
 public class Main {

@@ -1,5 +1,7 @@
-import command.*;
-import drawer.*;
+package ch22.Sample;
+
+import ch22.Sample.command.*;
+import ch22.Sample.drawer.*;
 
 import java.awt.*;
 import java.awt.event.*;

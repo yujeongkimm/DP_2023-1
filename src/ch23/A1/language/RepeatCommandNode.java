@@ -1,4 +1,4 @@
-package language;
+package ch23.A1.language;
 
 // <repeat command> ::= repeat <number> <command list>
 public class RepeatCommandNode extends Node {

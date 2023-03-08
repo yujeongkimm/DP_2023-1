@@ -1,3 +1,5 @@
+package ch05.Q3;
+
 public class Singleton {
     private static Singleton singleton = null;
 

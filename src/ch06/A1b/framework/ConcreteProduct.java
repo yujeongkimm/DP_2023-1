@@ -1,4 +1,4 @@
-package framework;
+package ch06.A1b.framework;
 
 public abstract class ConcreteProduct implements Product {
     @Override

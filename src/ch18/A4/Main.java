@@ -1,5 +1,7 @@
-import game.Memento;
-import game.Gamer;
+package ch18.A4;
+
+import ch18.A4.game.Memento;
+import ch18.A4.game.Gamer;
 
 import java.io.*;
 

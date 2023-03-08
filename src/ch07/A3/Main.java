@@ -1,3 +1,5 @@
+package ch07.A3;
+
 import javax.swing.JFrame;
 
 public class Main {

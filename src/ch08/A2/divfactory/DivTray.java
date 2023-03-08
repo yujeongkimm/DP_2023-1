@@ -1,7 +1,7 @@
-package divfactory;
+package ch08.A2.divfactory;
 
-import factory.Item;
-import factory.Tray;
+import ch08.A2.factory.Item;
+import ch08.A2.factory.Tray;
 
 public class DivTray extends Tray {
     public DivTray(String caption) {

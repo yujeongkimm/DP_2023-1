@@ -1,3 +1,5 @@
+package ch14.A3;
+
 public class Main {
     public static void main(String[] args) {
         Support alice = new NoSupport("Alice");

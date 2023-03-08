@@ -1,3 +1,5 @@
+package ch23.Sample;
+
 // <repeat command> ::= repeat <number> <command list>
 public class RepeatCommandNode extends Node {
     private int number;

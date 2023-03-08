@@ -1,3 +1,5 @@
+package ch02.Q2;
+
 import java.io.IOException;
 
 public interface FileIO {

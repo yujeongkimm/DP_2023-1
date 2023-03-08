@@ -1,4 +1,4 @@
-package pagemaker;
+package ch15.Sample.pagemaker;
 
 import java.io.Writer;
 import java.io.IOException;

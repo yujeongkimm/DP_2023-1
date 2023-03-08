@@ -1,3 +1,5 @@
+package ch09.A3;
+
 public class IncreaseDisplay extends CountDisplay {
     private int step; // 증갓값 
 

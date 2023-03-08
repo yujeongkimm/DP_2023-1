@@ -1,3 +1,5 @@
+package ch01.A1;
+
 public class Book {
     private String name;
 

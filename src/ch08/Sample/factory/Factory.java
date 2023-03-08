@@ -1,4 +1,4 @@
-package factory;
+package ch08.Sample.factory;
 
 public abstract class Factory {
     public static Factory getFactory(String classname) {

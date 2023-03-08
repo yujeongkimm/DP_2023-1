@@ -1,3 +1,5 @@
+package ch11.Sample;
+
 public class File extends Entry {
     private String name;
     private int size;

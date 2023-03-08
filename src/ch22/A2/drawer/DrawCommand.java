@@ -1,6 +1,6 @@
-package drawer;
+package ch22.A2.drawer;
 
-import command.Command;
+import ch22.A2.command.Command;
 import java.awt.Point;
 
 public class DrawCommand implements Command {

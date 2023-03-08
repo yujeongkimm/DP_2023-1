@@ -1,4 +1,6 @@
-import factory.*;
+package ch08.Sample;
+
+import ch08.Sample.factory.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package language;
+package ch23.A1.language;
 
 import java.util.ArrayList;
 import java.util.List;

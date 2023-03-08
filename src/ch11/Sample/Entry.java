@@ -1,3 +1,5 @@
+package ch11.Sample;
+
 public abstract class Entry {
     // 이름을 얻는다
     public abstract String getName();

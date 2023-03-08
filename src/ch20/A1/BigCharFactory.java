@@ -1,3 +1,5 @@
+package ch20.A1;
+
 import java.util.HashMap;
 import java.util.Map;
 

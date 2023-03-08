@@ -1,3 +1,5 @@
+package ch17.A1;
+
 public class IncrementalNumberGenerator extends NumberGenerator {
     private int number;	// 현재 수 
     private int end;		// 종룟값(이 값은 포함하지 않는다)

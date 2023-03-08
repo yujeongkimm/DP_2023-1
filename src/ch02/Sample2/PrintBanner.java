@@ -1,3 +1,4 @@
+package ch02.Sample2;
 public class PrintBanner extends Print {
     private Banner banner;
 

@@ -1,4 +1,4 @@
-package command;
+package ch22.A2.command;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

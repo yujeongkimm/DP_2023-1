@@ -1,3 +1,5 @@
+package ch20.A2;
+
 public class Main {
     private static BigString[] bsarray = new BigString[10000];
 

@@ -1,3 +1,5 @@
+package ch05.A2b;
+
 public enum Triple {
     ALPHA, BETA, GAMMA;
 

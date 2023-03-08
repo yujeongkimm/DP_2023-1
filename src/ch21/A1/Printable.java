@@ -1,3 +1,4 @@
+package ch21.A1;
 public interface Printable {
     public abstract void setPrinterName(String name);		// 이름 설정 
     public abstract String getPrinterName();		// 이름 획득 

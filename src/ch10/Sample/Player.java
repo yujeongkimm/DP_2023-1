@@ -1,3 +1,5 @@
+package ch10.Sample;
+
 public class Player {
     private String name;
     private Strategy strategy;

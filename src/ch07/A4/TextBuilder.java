@@ -1,3 +1,5 @@
+package ch07.A4;
+
 public class TextBuilder extends Builder {
     private String text = "";
 

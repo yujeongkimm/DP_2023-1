@@ -1,3 +1,5 @@
+package ch07.A2;
+
 public class TextBuilder extends Builder {
     private StringBuilder sb = new StringBuilder();
 

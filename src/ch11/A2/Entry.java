@@ -1,3 +1,5 @@
+package ch11.A2;
+
 public abstract class Entry {
     private Entry parent;
 

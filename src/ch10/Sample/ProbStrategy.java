@@ -1,3 +1,5 @@
+package ch10.Sample;
+
 import java.util.Random;
 
 public class ProbStrategy implements Strategy {

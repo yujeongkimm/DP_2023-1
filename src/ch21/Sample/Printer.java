@@ -1,3 +1,4 @@
+package ch21.Sample;
 public class Printer implements Printable {
     private String name; // 이름 
 

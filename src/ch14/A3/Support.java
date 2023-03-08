@@ -1,3 +1,5 @@
+package ch14.A3;
+
 public abstract class Support {
     private String name;    // 이 트러블 해결자의 이름
     private Support next;   // 떠넘길 곳

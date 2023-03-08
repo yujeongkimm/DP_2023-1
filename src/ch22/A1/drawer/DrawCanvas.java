@@ -1,6 +1,6 @@
-package drawer;
+package ch22.A1.drawer;
 
-import command.MacroCommand;
+import ch22.A1.command.MacroCommand;
 
 import java.awt.Color;
 import java.awt.Graphics;

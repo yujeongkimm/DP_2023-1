@@ -1,4 +1,4 @@
-package language;
+package ch23.A1.language;
 
 // <program> ::= program <command list>
 public class ProgramNode extends Node {

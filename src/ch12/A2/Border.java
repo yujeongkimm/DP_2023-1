@@ -1,3 +1,5 @@
+package ch12.A2;
+
 public abstract class Border extends Display {
     protected Display display;             // 이 장식틀이 감싸는 '내용물'
 

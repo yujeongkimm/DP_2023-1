@@ -1,6 +1,6 @@
-package drawer;
+package ch22.A1.drawer;
 
-import command.Command;
+import ch22.A1.command.Command;
 import java.awt.Color;
 
 public class ColorCommand implements Command {

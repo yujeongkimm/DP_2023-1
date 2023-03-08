@@ -1,4 +1,6 @@
-import pagemaker.PageMaker;
+package ch15.Sample;
+
+import ch15.Sample.pagemaker.PageMaker;
 
 public class Main {
     public static void main(String[] args) {

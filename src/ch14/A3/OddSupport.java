@@ -1,3 +1,5 @@
+package ch14.A3;
+
 public class OddSupport extends Support {
     public OddSupport(String name) {
         super(name);

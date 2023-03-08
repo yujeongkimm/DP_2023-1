@@ -1,3 +1,5 @@
+package ch12.A2;
+
 public abstract class Display {
     public abstract int getColumns();           	// 가로 문자 수를 얻는다
     public abstract int getRows();              	// 세로 행수를 얻는다

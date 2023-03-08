@@ -1,4 +1,4 @@
-package factory;
+package ch08.Sample.factory;
 
 import java.io.IOException;
 import java.nio.file.Files;

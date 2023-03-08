@@ -1,3 +1,5 @@
+package ch19.Sample;
+
 public class DayState implements State {
     private static DayState singleton = new DayState();
 

@@ -1,3 +1,5 @@
+package ch02.Sample1;
+
 public class Banner {
     private String string;
 

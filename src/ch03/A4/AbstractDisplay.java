@@ -1,3 +1,5 @@
+package ch03.A4;
+
 public interface AbstractDisplay {
     public void open();
     public void print();

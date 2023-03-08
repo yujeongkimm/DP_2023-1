@@ -1,4 +1,4 @@
-package game;
+package ch18.A4.game;
 
 import java.io.*;
 import java.nio.file.*;

@@ -1,5 +1,7 @@
-import command.*;
-import drawer.*;
+package ch22.A3;
+
+import ch22.A3.command.*;
+import ch22.A3.drawer.*;
 
 import java.awt.*;
 import java.awt.event.*;

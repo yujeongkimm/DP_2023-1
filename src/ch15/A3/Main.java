@@ -1,3 +1,5 @@
+package ch15.A3;
+
 public class Main {
     public static void main(String[] args) {
         String title = "Welcome!";

@@ -1,7 +1,8 @@
-package idcard;
+package ch04.A2.idcard;
 
-import framework.Factory;
-import framework.Product;
+
+import ch04.A2.framework.Factory;
+import ch04.A2.framework.Product;
 
 public class IDCardFactory extends Factory {
     private int serial = 100;

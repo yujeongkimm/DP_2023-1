@@ -1,3 +1,5 @@
+package ch10.A1;
+
 public enum Hand {
     // 가위 바위 보를 나타내는 세 개의 enum 상수
     ROCK("바위", 0),

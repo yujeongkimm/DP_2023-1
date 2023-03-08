@@ -1,3 +1,5 @@
+package ch23.Sample;
+
 // <command> ::= <repeat command> | <primitive command>
 public class CommandNode extends Node {
     private Node node;

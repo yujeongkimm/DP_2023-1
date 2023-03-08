@@ -1,9 +1,9 @@
-package divfactory;
+package ch08.A2.divfactory;
 
-import factory.Factory;
-import factory.Link;
-import factory.Page;
-import factory.Tray;
+import ch08.A2.factory.Factory;
+import ch08.A2.factory.Link;
+import ch08.A2.factory.Page;
+import ch08.A2.factory.Tray;
 
 public class DivFactory extends Factory {
     @Override

@@ -1,3 +1,5 @@
+package ch09.Sample;
+
 public class CountDisplay extends Display {
     public CountDisplay(DisplayImpl impl) {
         super(impl);

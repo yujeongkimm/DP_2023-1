@@ -1,3 +1,5 @@
+package ch12.Q2;
+
 public class SideBorder extends Border {
     private char borderChar;  // 장식 문자
 

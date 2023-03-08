@@ -1,6 +1,6 @@
-package divfactory;
+package ch08.Sample.divfactory;
 
-import factory.Link;
+import ch08.Sample.factory.Link;
 
 public class DivLink extends Link {
     public DivLink(String caption, String url) {

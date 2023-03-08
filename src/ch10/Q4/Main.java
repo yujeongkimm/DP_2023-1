@@ -1,3 +1,5 @@
+package ch10.Q4;
+
 import java.util.*;
 
 class Main {

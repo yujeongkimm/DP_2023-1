@@ -1,3 +1,5 @@
+package ch09.A1;
+
 public class StringDisplayImpl extends DisplayImpl {
     private String string;
     private int width;

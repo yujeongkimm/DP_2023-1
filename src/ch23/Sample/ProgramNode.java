@@ -1,3 +1,5 @@
+package ch23.Sample;
+
 // <program> ::= program <command list>
 public class ProgramNode extends Node {
     private Node commandListNode;

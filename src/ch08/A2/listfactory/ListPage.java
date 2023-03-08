@@ -1,7 +1,7 @@
-package listfactory;
+package ch08.A2.listfactory;
 
-import factory.Item;
-import factory.Page;
+import ch08.A2.factory.Item;
+import ch08.A2.factory.Page;
 
 public class ListPage extends Page {
     public ListPage(String title, String author) {

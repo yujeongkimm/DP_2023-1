@@ -2,29 +2,30 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/src/01 Iterator/01 Iterator.iml" filepath="$PROJECT_DIR$/src/01 Iterator/01 Iterator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/02 Adapter/02 Adapter.iml" filepath="$PROJECT_DIR$/src/02 Adapter/02 Adapter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/03 TemplateMethod/03 TemplateMethod.iml" filepath="$PROJECT_DIR$/src/03 TemplateMethod/03 TemplateMethod.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/04 FactoryMethod/04 FactoryMethod.iml" filepath="$PROJECT_DIR$/src/04 FactoryMethod/04 FactoryMethod.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/05 Singleton/05 Singleton.iml" filepath="$PROJECT_DIR$/src/05 Singleton/05 Singleton.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/06 Prototype/06 Prototype.iml" filepath="$PROJECT_DIR$/src/06 Prototype/06 Prototype.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/07 Builder/07 Builder.iml" filepath="$PROJECT_DIR$/src/07 Builder/07 Builder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/08 AbstractFactory/08 AbstractFactory.iml" filepath="$PROJECT_DIR$/src/08 AbstractFactory/08 AbstractFactory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/09 Bridge/09 Bridge.iml" filepath="$PROJECT_DIR$/src/09 Bridge/09 Bridge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/10 Strategy/10 Strategy.iml" filepath="$PROJECT_DIR$/src/10 Strategy/10 Strategy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/11 Composite/11 Composite.iml" filepath="$PROJECT_DIR$/src/11 Composite/11 Composite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/12 Decorator/12 Decorator.iml" filepath="$PROJECT_DIR$/src/12 Decorator/12 Decorator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/13 Visitor/13 Visitor.iml" filepath="$PROJECT_DIR$/src/13 Visitor/13 Visitor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/14 ChainOfResponsibility/14 ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/src/14 ChainOfResponsibility/14 ChainOfResponsibility.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/15 Facade/15 Facade.iml" filepath="$PROJECT_DIR$/src/15 Facade/15 Facade.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/16 Mediator/16 Mediator.iml" filepath="$PROJECT_DIR$/src/16 Mediator/16 Mediator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/17 Observer/17 Observer.iml" filepath="$PROJECT_DIR$/src/17 Observer/17 Observer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/18 Memento/18 Memento.iml" filepath="$PROJECT_DIR$/src/18 Memento/18 Memento.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/19 State/19 State.iml" filepath="$PROJECT_DIR$/src/19 State/19 State.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/20 Flyweight/20 Flyweight.iml" filepath="$PROJECT_DIR$/src/20 Flyweight/20 Flyweight.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/21 Proxy/21 Proxy.iml" filepath="$PROJECT_DIR$/src/21 Proxy/21 Proxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/22 Command/22 Command.iml" filepath="$PROJECT_DIR$/src/22 Command/22 Command.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/23 Interpreter/23 Interpreter.iml" filepath="$PROJECT_DIR$/src/23 Interpreter/23 Interpreter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DP_2023-1.iml" filepath="$PROJECT_DIR$/DP_2023-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch01/ch01.iml" filepath="$PROJECT_DIR$/src/ch01/ch01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch02/ch02.iml" filepath="$PROJECT_DIR$/src/ch02/ch02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch03/ch03.iml" filepath="$PROJECT_DIR$/src/ch03/ch03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch04/ch04.iml" filepath="$PROJECT_DIR$/src/ch04/ch04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch05/ch05.iml" filepath="$PROJECT_DIR$/src/ch05/ch05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch06/ch06.iml" filepath="$PROJECT_DIR$/src/ch06/ch06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch07/ch07.iml" filepath="$PROJECT_DIR$/src/ch07/ch07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch08/ch08.iml" filepath="$PROJECT_DIR$/src/ch08/ch08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch09/ch09.iml" filepath="$PROJECT_DIR$/src/ch09/ch09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch10/ch10.iml" filepath="$PROJECT_DIR$/src/ch10/ch10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch11/ch11.iml" filepath="$PROJECT_DIR$/src/ch11/ch11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch12/ch12.iml" filepath="$PROJECT_DIR$/src/ch12/ch12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch13/ch13.iml" filepath="$PROJECT_DIR$/src/ch13/ch13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch14/ch14.iml" filepath="$PROJECT_DIR$/src/ch14/ch14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch15/ch15.iml" filepath="$PROJECT_DIR$/src/ch15/ch15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch16/ch16.iml" filepath="$PROJECT_DIR$/src/ch16/ch16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch17/ch17.iml" filepath="$PROJECT_DIR$/src/ch17/ch17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch18/ch18.iml" filepath="$PROJECT_DIR$/src/ch18/ch18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch19/ch19.iml" filepath="$PROJECT_DIR$/src/ch19/ch19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch20/ch20.iml" filepath="$PROJECT_DIR$/src/ch20/ch20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch21/ch21.iml" filepath="$PROJECT_DIR$/src/ch21/ch21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch22/ch22.iml" filepath="$PROJECT_DIR$/src/ch22/ch22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ch23/ch23.iml" filepath="$PROJECT_DIR$/src/ch23/ch23.iml" />
     </modules>
   </component>
 </project>

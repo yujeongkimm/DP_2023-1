@@ -1,3 +1,5 @@
+package ch17.A2;
+
 public class DigitObserver implements Observer {
     @Override
     public void update(NumberGenerator generator) {

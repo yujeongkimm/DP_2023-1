@@ -1,3 +1,5 @@
+package ch10.A4a;
+
 import java.util.*;
 
 class Main {

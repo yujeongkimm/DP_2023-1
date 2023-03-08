@@ -1,3 +1,5 @@
+package ch12.Q2;
+
 public class FullBorder extends Border {
     public FullBorder(Display display) {
         super(display);

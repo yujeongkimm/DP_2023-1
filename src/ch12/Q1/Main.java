@@ -1,3 +1,5 @@
+package ch12.Q1;
+
 public class Main {
     public static void main(String[] args) {
         Display b1 = new StringDisplay("Hello, world.");

@@ -1,3 +1,5 @@
+package ch03.Sample;
+
 public abstract class AbstractDisplay {
     // open, print, close는 하위 클래스에 구현을 맡기는 추상 메소드 
     public abstract void open();

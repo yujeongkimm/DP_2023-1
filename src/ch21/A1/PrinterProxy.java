@@ -1,3 +1,4 @@
+package ch21.A1;
 public class PrinterProxy implements Printable {
     private String name;	// 이름 
     private Printable real;	// 본인 

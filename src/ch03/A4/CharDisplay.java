@@ -1,3 +1,5 @@
+package ch03.A4;
+
 public class CharDisplay implements AbstractDisplay {
     private char ch; // 표시해야 하는 문자 
 

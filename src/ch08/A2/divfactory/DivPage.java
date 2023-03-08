@@ -1,7 +1,7 @@
-package divfactory;
+package ch08.A2.divfactory;
 
-import factory.Item;
-import factory.Page;
+import ch08.A2.factory.Item;
+import ch08.A2.factory.Page;
 
 public class DivPage extends Page {
     public DivPage(String title, String author) {

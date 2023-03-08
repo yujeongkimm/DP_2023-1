@@ -1,3 +1,5 @@
+package ch23.Sample;
+
 // <primitive command> ::= go | right | left
 public class PrimitiveCommandNode extends Node {
     private String name;

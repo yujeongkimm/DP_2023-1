@@ -1,3 +1,5 @@
+package ch09.Sample;
+
 public class Display {
     private DisplayImpl impl;
 

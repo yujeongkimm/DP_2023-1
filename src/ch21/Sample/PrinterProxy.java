@@ -1,3 +1,4 @@
+package ch21.Sample;
 public class PrinterProxy implements Printable {
     private String name;	// 이름
     private Printer real;	// '본인' 

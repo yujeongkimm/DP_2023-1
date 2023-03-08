@@ -1,3 +1,5 @@
+package ch02.A2;
+
 import java.io.IOException;
 
 public class Main {

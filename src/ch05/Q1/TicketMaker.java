@@ -1,3 +1,5 @@
+package ch05.Q1;
+
 public class TicketMaker {
     private int ticket = 1000;
 

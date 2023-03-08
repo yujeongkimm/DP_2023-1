@@ -1,4 +1,6 @@
-import framework.ConcreteProduct;
+package ch06.A1b;
+
+import ch06.A1b.framework.ConcreteProduct;
 
 public class UnderlinePen extends ConcreteProduct {
     private char ulchar;

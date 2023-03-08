@@ -1,3 +1,5 @@
+package ch19.A1;
+
 public class NightState implements State {
     private static NightState singleton = new NightState();
 

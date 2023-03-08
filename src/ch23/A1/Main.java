@@ -1,5 +1,7 @@
-import language.*;
-import turtle.*;
+package ch23.A1;
+
+import ch23.A1.language.*;
+import ch23.A1.turtle.*;
 
 import java.awt.*;
 import java.awt.event.*;

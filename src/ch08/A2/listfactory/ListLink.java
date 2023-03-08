@@ -1,6 +1,6 @@
-package listfactory;
+package ch08.A2.listfactory;
 
-import factory.Link;
+import ch08.A2.factory.Link;
 
 public class ListLink extends Link {
     public ListLink(String caption, String url) {

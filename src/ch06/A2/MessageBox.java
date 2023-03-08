@@ -1,4 +1,6 @@
-import framework.Product;
+package ch06.A2;
+
+import ch06.A2.framework.Product;
 
 public class MessageBox implements Product {
     private char decochar;

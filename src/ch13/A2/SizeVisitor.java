@@ -1,3 +1,5 @@
+package ch13.A2;
+
 public class SizeVisitor extends Visitor {
     private int size = 0;
 

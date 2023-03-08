@@ -1,3 +1,5 @@
+package ch07.A3;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;

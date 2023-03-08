@@ -1,4 +1,4 @@
-package factory;
+package ch08.Sample.factory;
 
 public abstract class Link extends Item {
     protected String url;

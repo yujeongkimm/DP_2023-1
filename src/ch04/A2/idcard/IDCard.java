@@ -1,6 +1,6 @@
-package idcard;
+package ch04.A2.idcard;
 
-import framework.Product;
+import ch04.A2.framework.Product;
 
 public class IDCard extends Product {
     private String owner;

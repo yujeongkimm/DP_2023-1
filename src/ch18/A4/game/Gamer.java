@@ -1,4 +1,4 @@
-package game;
+package ch18.A4.game;
 
 import java.util.ArrayList;
 import java.util.List;

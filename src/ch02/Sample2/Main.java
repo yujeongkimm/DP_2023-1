@@ -1,3 +1,5 @@
+package ch02.Sample2;
+
 public class Main {
     public static void main(String[] args) {
         Print p = new PrintBanner("Hello");
