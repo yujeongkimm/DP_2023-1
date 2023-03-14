@@ -1,5 +1,6 @@
 package ch01.practice;
 
+import java.util.Iterator;
 
 public class Main{
     
@@ -21,8 +22,24 @@ public class Main{
         // System.out.println(result2.getName());
 
         //for 루프를 이용해서 책이름 출력 
-        for(int i = 0; i <= bs1. ; i++) {
+        for(int i = 0; i < bs1.getLength() ; i++) {
             System.out.println(bs1.getBookAt(i).getName());
+        }
+
+        //확장 for 루프를 이용해서 책이름 출력하기 
+        for( Book b : bs1 ) {
+            System.out.println(b.getName());
+        }
+
+        //iterator를 이용해서 책이름 출력하기
+        //iterator 얻기
+        System.out.println("<book list using iterator>");
+        // BookShelfIterator iterator = bs1.iterator();
+        Iterator<Book> iterator = bs1.iterator();
+        //iterator 이용해서 원소 얻어오기 
+        while( iterator.hasNext() ) {
+            Book b = iterator.next();
+            System.out.println(b.getName());
         }
     }
     
