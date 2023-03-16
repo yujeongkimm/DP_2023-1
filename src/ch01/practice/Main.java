@@ -1,6 +1,8 @@
 package ch01.practice;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class Main{
     
@@ -41,6 +43,41 @@ public class Main{
             Book b = iterator.next();
             System.out.println(b.getName());
         }
+        
+        // 문자열 리스트 다루기
+        // 컬렉션: List, Set, Map
+        // ArrayList
+        List<String> slist = new ArrayList<String>();   // 부모타입으로 선언 (List)
+
+        slist.add("a");
+        slist.add("b");
+        slist.add("c");
+
+        // 모든 원소 출력하기
+
+        // 1. for 루프 이용하기
+        for( int i=0 ;  i < slist.size() ; i++ ) {
+            System.out.println(slist.get(i));
+        }
+
+        // 2. 확장 for 문 이용하기
+        for(String s : slist) {
+            System.out.println(s);
+        }        
+
+        // 3. Iterator 이용하기 
+        // 3.1 Iterator 얻기 
+        Iterator<String> itr = slist.iterator();
+
+        // 3.2 원소 출력하기 
+        while(itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+
+        // 4. 스트림 이용하기
+        slist.stream().forEach(System.out::println);   // 메소드 참조 
+
+        
     }
     
 }
