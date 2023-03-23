@@ -1,0 +1,6 @@
+#written by FileProperties
+#Thu Mar 23 10:42:24 KST 2023
+depth=32
+width=1024
+name=kyj
+height=512
