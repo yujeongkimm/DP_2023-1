@@ -1,0 +1,10 @@
+#written by FileProperties
+#Mon Mar 27 23:02:26 KST 2023
+bornYear=2000
+Year=2023
+width=640
+name=kyj
+height=100
+StudentId=20201111
+Name=KimYuJeong
+Location=Seoul
