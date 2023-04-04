@@ -14,7 +14,7 @@ public class Main {
             f.setValue("Name", "KimYuJeong");
             f.setValue("Location", "Seoul");
             f.writeToFile("KimYuJeong.txt");
-            System.out.println("newfile.txt is created.");
+            System.out.println("KimYuJeong.txt is created.");
         } catch (IOException e) {
             e.printStackTrace();
         }
