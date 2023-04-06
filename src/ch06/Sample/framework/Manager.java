@@ -15,6 +15,7 @@ public class Manager {
     public Product create(String prototypeName) {
         Product p = showcase.get(prototypeName);
         //return p;
+        // return p.clone(); // 안 된다: clone()은 자기 자신만 호출할 수 있다.
         return p.createCopy(); // 복제품을 반환
     }
 }

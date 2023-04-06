@@ -25,5 +25,9 @@ public class Main {
 
         Product p3 = manager.create("slash box");
         p3.use("Hello, world.");
+
+        // 복사 생성자 이용하기
+        MessageBox copy = new MessageBox(sbox);
+        copy.use("Duksung");
     }
 }
