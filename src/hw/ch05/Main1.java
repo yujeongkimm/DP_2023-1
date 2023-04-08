@@ -4,7 +4,7 @@ import hw.ch05.idcard.IDCardFactoryKimYuJeong1;
 
 public class Main1 {
     public static void main(String args[]) {
-        System.out.println("20201111 김유정");
+        System.out.println("<<20201111, 김유정>>>");
 
         IDCardFactoryKimYuJeong1 factory1 = IDCardFactoryKimYuJeong1.getInstance();
         IDCardFactoryKimYuJeong1 factory2 = IDCardFactoryKimYuJeong1.getInstance();
