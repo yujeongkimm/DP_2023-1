@@ -1,6 +1,7 @@
 package ch10.A1;
 
 public enum Hand {
+    // 싱글톤 같이 하나씩만 만들어짐
     // 가위 바위 보를 나타내는 세 개의 enum 상수
     ROCK("바위", 0),
     SCISSORS("가위", 1),
