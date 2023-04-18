@@ -21,6 +21,7 @@ public class BookShelfIterator implements Iterator<Book> {
         }
     }
 
+    // 현재 요소 반환, 다음 원소 가리키게 함 
     @Override
     public Book next() {
         if (!hasNext()) {

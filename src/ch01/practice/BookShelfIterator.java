@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class BookShelfIterator implements Iterator<Book>{
 
     BookShelf bookShelf;    //집합체 
-    int index;
+    int index;      // 화살표 위치
 
     //생성자
     public BookShelfIterator(BookShelf bookShelf) {
