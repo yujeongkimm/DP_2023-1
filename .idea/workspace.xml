@@ -5,56 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec7cd73-615b-43b4-b261-7292c08db468" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DP_2023-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch01/ch01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch02/ch02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch03/ch03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch04/ch04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch05/ch05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch06/ch06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch07/ch07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch08/ch08.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch09/ch09.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch10/ch10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch11/ch11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch12/ch12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch13/ch13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch14/ch14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch15/ch15.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch16/ch16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch17/ch17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch18/ch18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch19/ch19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch20/ch20.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch21/ch21.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch22/ch22.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ch23/ch23.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch01/ch01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch02/ch02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03/ch03.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch04/ch04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch05/ch05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch06/ch06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch07/ch07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08/ch08.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09/ch09.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch10/ch10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/ch11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch12/ch12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13/ch13.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14/ch14.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch15/ch15.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch16/ch16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch17/ch17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch18/ch18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch19/ch19.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch20/ch20.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch21/ch21.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch22/ch22.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch23/ch23.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch04/practice/framework/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch04/practice/framework/Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/A1/TicketMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch05/A1/TicketMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/A2a/Triple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch05/A2a/Triple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/A2b/Triple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch05/A2b/Triple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/A3a/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch05/A3a/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ch05/A3b/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ch05/A3b/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04/A2/idcard/IDCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04/A2/idcard/IDCardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch04/practice/framework/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch04/practice/framework/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch05/A1/TicketMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05/A1/TicketMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch05/A2a/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05/A2a/Triple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch05/A2b/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05/A2b/Triple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch05/A3a/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05/A3a/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch05/A3b/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch05/A3b/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +35,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
-  }
-}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="DP_2023-1" />

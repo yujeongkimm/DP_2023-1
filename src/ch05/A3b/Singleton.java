@@ -1,6 +1,7 @@
 package ch05.A3b;
 
 public class Singleton {
+    // 필드에서 객체 생성 X
     private static Singleton singleton = null;
 
     private Singleton() {

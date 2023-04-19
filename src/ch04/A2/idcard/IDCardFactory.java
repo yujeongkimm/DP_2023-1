@@ -7,7 +7,7 @@ import ch04.A2.framework.Factory;
 import ch04.A2.framework.Product;
 
 public class IDCardFactory extends Factory {
-    private Hashtable manager = new Hashtable<>();
+    private Hashtable manager = new Hashtable<>();  // 
     private int serial = 100;
 
     protected synchronized Product createProduct(String owner) {
