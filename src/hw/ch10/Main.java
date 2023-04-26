@@ -16,14 +16,14 @@ public class Main {
 
         // 오름차순 정렬
         System.out.println("** (1) 정렬 결과 (오름차순)");
-        list.sort((a,b) -> a.compareTo(b));
+        list.sort(new ComparatorAscending());
         for(Student s : list) {
             System.out.println(s);
         }
 
         // 내림차순 정렬
         System.out.println("** (2) 정렬 결과 (내림차순)");
-        list.sort((a,b) -> b.compareTo(a));
+        list.sort(new ComparatorDescending());
         for(Student s : list) {
             System.out.println(s);
         }
