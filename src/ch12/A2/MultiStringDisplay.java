@@ -12,6 +12,7 @@ public class MultiStringDisplay extends Display {
     // 문자열 추가 
     public void add(String msg) {
         body.add(msg);
+        // 더 긴 문자열을 넣는다면...
         if (columns < msg.length()) {
             // 최대 문자 수 갱신
             columns = msg.length();
@@ -26,7 +27,7 @@ public class MultiStringDisplay extends Display {
 
     @Override
     public int getRows() {
-        return body.size();
+        return body.size(); // 문자열의 개수 
     }
 
     @Override
@@ -38,8 +39,8 @@ public class MultiStringDisplay extends Display {
     private void updatePadding() {
         for (int row = 0; row < body.size(); row++) {
             String line = body.get(row);
-            int padding = columns - line.length();
-            if (padding > 0) {
+            int padding = columns - line.length();  // 채워야 할 빈 칸 개수
+            if (padding > 0) {  // 빈 칸을 채워야 하면...
                 body.set(row, line + spaces(padding));
             }
         }
