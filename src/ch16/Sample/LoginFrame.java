@@ -11,8 +11,10 @@ import java.awt.event.ActionListener;
 public class LoginFrame extends Frame implements ActionListener, Mediator {
     private ColleagueCheckbox checkGuest;
     private ColleagueCheckbox checkLogin;
+
     private ColleagueTextField textUser;
     private ColleagueTextField textPass;
+
     private ColleagueButton buttonOk;
     private ColleagueButton buttonCancel;
 
@@ -43,11 +45,12 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
         colleagueChanged();
 
         // 표시한다 
-        pack();
+        pack(); // component 정리
         setVisible(true);
     }
 
     // Colleague를 생성한다
+    // gui 생성
     @Override
     public void createColleagues() {
         // CheckBox
@@ -83,25 +86,25 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
 
     // Colleage의 상태가 바뀌면 호출된다
     @Override
-    public void colleagueChanged() {
-        if (checkGuest.getState()) {
+    public void colleagueChanged() {    //
+        if (checkGuest.getState()) {    // Guest 체크박스가 눌러졌으면,
             // 게스트 로그인 
-            textUser.setColleagueEnabled(false);
+            textUser.setColleagueEnabled(false);    // 비활성화해라 
             textPass.setColleagueEnabled(false);
-            buttonOk.setColleagueEnabled(true);
-        } else {
+            buttonOk.setColleagueEnabled(true);     // 활성화해라 
+        } else {    // Login 체크박스가 눌러졌으면,
             // 사용자 로그인 
             textUser.setColleagueEnabled(true);
-            userpassChanged();
+            userpassChanged();  //
         }
     }
 
     // textUser 또는 textPass의 변경이 있다 
     // 각 Colleage의 활성/비활성을 판정한다
     private void userpassChanged() {
-        if (textUser.getText().length() > 0) {
+        if (textUser.getText().length() > 0) {  // username 칸에 문자열이 입력되어 있으면, 
             textPass.setColleagueEnabled(true);
-            if (textPass.getText().length() > 0) {
+            if (textPass.getText().length() > 0) {  // password 칸에 문자열이 입력되어 있으면, 
                 buttonOk.setColleagueEnabled(true);
             } else {
                 buttonOk.setColleagueEnabled(false);

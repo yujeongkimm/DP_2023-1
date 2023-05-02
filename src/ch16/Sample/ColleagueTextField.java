@@ -21,9 +21,9 @@ public class ColleagueTextField extends TextField implements TextListener, Colle
     // Mediator에서 활성/비활성을 지시한다
     @Override
     public void setColleagueEnabled(boolean enabled) {
-        setEnabled(enabled);
+        setEnabled(enabled);    // TextField에서 상속 , 활성/비활성화
         // 활성/비활성에 맞게 배경색을 변경한다
-        setBackground(enabled ? Color.white : Color.lightGray);
+        setBackground(enabled ? Color.white : Color.lightGray); // enabled가 true면 왼쪽이 결과값, false면 오른쪽이 결과값
     }
 
     @Override
