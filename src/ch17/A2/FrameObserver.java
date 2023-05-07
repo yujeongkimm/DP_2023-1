@@ -11,7 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class FrameObserver extends Frame implements Observer, ActionListener {
-     // 내부 클래스
+     // 내부 클래스 1
     // GraphText는 통지된 수를 텍스트 필드로 표시하는 static 클래스 
     static class GraphText extends TextField implements Observer {
         public GraphText(int columns) {
@@ -29,7 +29,7 @@ public class FrameObserver extends Frame implements Observer, ActionListener {
         }
     }
 
-    // 내부 클래스
+    // 내부 클래스 2
     // GraphCanvas는 통지된 수를 원그래프로 표시하는 static 클래스 
     static class GraphCanvas extends Canvas implements Observer {
         private int number;
@@ -63,6 +63,7 @@ public class FrameObserver extends Frame implements Observer, ActionListener {
         textGraph.setEditable(false);   // 입력 불가
         canvasGraph.setSize(500, 500);
         
+        // 등록
         add(textGraph, BorderLayout.NORTH);
         add(canvasGraph, BorderLayout.CENTER);
         add(buttonClose, BorderLayout.SOUTH);
@@ -72,6 +73,7 @@ public class FrameObserver extends Frame implements Observer, ActionListener {
         setVisible(true);
     }
 
+    // buttonClose 호출되는 메소드 (buttonClose.addActionListener(this);)
     @Override
     public void actionPerformed(ActionEvent e) {
         System.out.println(e.toString());
