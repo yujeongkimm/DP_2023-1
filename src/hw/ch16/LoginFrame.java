@@ -31,8 +31,8 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
         // 배경색을 설정한다
         setBackground(Color.lightGray);
 
-        // 레이아웃 매니저를 사용해 4×2 그리드를 만든다
-        setLayout(new GridLayout(5, 3));
+        // 레이아웃 매니저를 사용해 5×3 그리드를 만든다
+        setLayout(new GridLayout(5, 3));    //
 
         // Colleague를 생성한다 
         createColleagues();
@@ -40,16 +40,16 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
         // 배치한다 
         add(checkGuest);
         add(checkLogin);
-        add(checkMember);
+        add(checkMember);   // Member 라디오 버튼
         add(new Label("Username:"));
         add(textUser);
-        add(new Label(""));
+        add(new Label("")); //
         add(new Label("Password:"));
         add(textPass);
-        add(new Label(""));
-        add(new Label("주민등록번호"));
-        add(textSSN);
-        add(new Label(""));
+        add(new Label("")); //
+        add(new Label("주민등록번호")); //
+        add(textSSN);   //
+        add(new Label("")); //
         add(buttonOk);
         add(buttonCancel);
 
@@ -116,7 +116,7 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
             // 사용자 로그인 
             textUser.setColleagueEnabled(true);
             userpassChanged();  //
-        } else {    //
+        } else {    // member 체크박스가 눌러졌으면,
             textUser.setColleagueEnabled(true);
             userpassChangedWithSSN();
         }
