@@ -9,7 +9,7 @@ import java.awt.Panel;
 import java.awt.TextArea;
 import java.awt.TextField;
 
-public class SafeFrame extends Frame implements ActionListener, Context {
+public class SafeFrame extends Frame implements Context {
     private TextField textClock = new TextField(60);		// 현재 시간 표시
     private TextArea textScreen = new TextArea(10, 60);	// 경비 센터 출력
     private Button buttonUse = new Button("금고 사용");	// 금고 사용 버튼
@@ -41,6 +41,7 @@ public class SafeFrame extends Frame implements ActionListener, Context {
         add(panel, BorderLayout.SOUTH);
 
         // 버튼이 눌렸을 때의 리스너를 람다식으로 설정
+        //
         buttonUse.addActionListener(e -> state.doUse(this));
         buttonAlarm.addActionListener(e -> state.doAlarm(this));
         buttonPhone.addActionListener(e -> state.doPhone(this));

@@ -10,7 +10,8 @@ import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class SafeFrame extends Frame implements ActionListener, Context {
+//public class SafeFrame extends Frame implements ActionListener, Context {
+public class SafeFrame extends Frame implements Context {
     /*
     * GUI 컴포넌트 선언 
     */
@@ -56,13 +57,26 @@ public class SafeFrame extends Frame implements ActionListener, Context {
         setVisible(true);
         
         // 리스너 설정 
-        buttonUse.addActionListener(this);
-        buttonAlarm.addActionListener(this);
-        buttonPhone.addActionListener(this);
-        buttonExit.addActionListener(this);
+        /*
+         * functional interface : 메소드가 딱 하나만 선언되어 있는 인터페이스
+         * functional interface 객체가 들어갈 자리에는 람다식을 넣을 수 있다
+         * 연습 문제 (람다식 사용)
+         */
+        //buttonUse.addActionListener(this);    // ActionListener 객체의 actionPerformed()가 호출됨
+        buttonUse.addActionListener((e) -> { state.doUse(this); });    // actionPerformed()함수로 간주, actionPerformed()의 인자는 ActionEvent e
+        
+        //buttonAlarm.addActionListener(this);
+        buttonAlarm.addActionListener((e) -> { state.doAlarm(this); });
+        
+        //buttonPhone.addActionListener(this);
+        buttonPhone.addActionListener((e) -> { state.doPhone(this); });
+
+        //buttonExit.addActionListener(this);
+        buttonExit.addActionListener((e) -> { System.exit(0); });
     }
 
     // 버튼이 눌리면 여기로 온다
+    /*
     @Override
     public void actionPerformed(ActionEvent e) {
         System.out.println(e.toString());
@@ -79,6 +93,7 @@ public class SafeFrame extends Frame implements ActionListener, Context {
             System.out.println("?");
         }
     }
+    */
 
     /*
      * Main.java에서 사용됨
@@ -91,7 +106,7 @@ public class SafeFrame extends Frame implements ActionListener, Context {
         System.out.println(clockstring);
         textClock.setText(clockstring);
         
-        state.doClock(this, hour);
+        state.doClock(this, hour);  // 상태에 위임 
     }
     
 

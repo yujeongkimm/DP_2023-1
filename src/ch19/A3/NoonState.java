@@ -12,6 +12,7 @@ public class NoonState implements State {
 
     @Override
     public void doClock(Context context, int hour) {
+        //
         if (hour < 9 || 17 <= hour) {
             context.changeState(NightState.getInstance());
         } else if (9 <= hour && hour < 12 || 13 <= hour && hour < 17) {
