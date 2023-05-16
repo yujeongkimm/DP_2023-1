@@ -19,9 +19,10 @@ public class BigCharFactory {
     }
 
     // BigChar 인스턴스 생성(공유)
-    public synchronized BigChar getBigChar(char charname) {
-        BigChar bc = pool.get(String.valueOf(charname));
-        if (bc == null) {
+    public synchronized BigChar getBigChar(char charname) { // '1'
+        // pool에서 먼저 검색을 함      
+        BigChar bc = pool.get(String.valueOf(charname));    // "1"
+        if (bc == null) {   // 검색한 결과 없으면...
             // 여기서 BigChar 인스턴스를 생성 
             bc = new BigChar(charname);
             pool.put(String.valueOf(charname), bc);
