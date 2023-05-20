@@ -23,7 +23,26 @@ public class Main extends JFrame implements MouseMotionListener, WindowListener 
 
         // 리스너 등록
         this.addWindowListener(this);
-        canvas.addMouseMotionListener(this);
+
+        //canvas.addMouseMotionListener(this);
+        // 익명의 내부 클래스 이용해서 리스너 등록해보기
+        canvas.addMouseMotionListener( new MouseMotionListener() {
+            public void mouseMoved(MouseEvent e) {
+                
+            }
+
+            public void mouseDragged(MouseEvent e) {
+                Command cmd = new DrawCommand(canvas, e.getPoint());    // 어느 좌표에 빨간점이 그려졌다는 명령어
+        
+                System.out.println("드래그이벤트 발생: X좌표: " + e.getPoint().getX());
+                System.out.println("드래그이벤트 발생: Y좌표: " + e.getPoint().getY());
+        
+                history.append(cmd);
+                cmd.execute();
+            }
+        } );
+
+        // 익명의 내부 클래스와 어댑터 이용해서 리스너 등록해보기
         
         // ActionListener는 function interface(actionPerformed 하나만 선언되어 있기 때문)
         // functional Interface가 들어갈 자리에는 람다식을 넣을 수 있다. 
