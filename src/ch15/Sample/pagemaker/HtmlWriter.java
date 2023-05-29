@@ -32,6 +32,8 @@ public class HtmlWriter {
     // 링크 출력
     public void link(String href, String caption) throws IOException {
         paragraph("<a href=\"" + href + "\">" + caption + "</a>");
+
+        // paragraph("<a href=\"" + href + "\">" + caption + "</a>");
     }
 
     // 이메일 주소 출력 
