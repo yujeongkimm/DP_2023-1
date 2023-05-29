@@ -31,12 +31,15 @@ public class DrawCanvas extends Canvas implements Drawable {
     // 초기화 
     @Override
     public void init() {
-        color = Color.red;
+        color = Color.red;  // 색깔 초기화 
         radius = 6;
         history.append(new ColorCommand(this, color));
     }
 
     // 그리기 
+    /*
+     * 
+     */
     @Override
     public void draw(int x, int y) {
         Graphics g = getGraphics();
@@ -44,6 +47,9 @@ public class DrawCanvas extends Canvas implements Drawable {
         g.fillOval(x - radius, y - radius, radius * 2, radius * 2);
     }
 
+    /**
+     * 추가 
+     */
     @Override
     public void setColor(Color color) {
         this.color = color;

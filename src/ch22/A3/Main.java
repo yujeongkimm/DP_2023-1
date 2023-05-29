@@ -19,12 +19,19 @@ public class Main extends JFrame {
     public Main(String title) {
         super(title);
 
+        /**
+         * 
+         */
         this.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 System.exit(0);
             }
         });
 
+
+        /**
+         * 
+         */
         canvas.addMouseMotionListener(new MouseMotionAdapter() {
             public void mouseDragged(MouseEvent e) {
                 Command cmd = new DrawCommand(canvas, e.getPoint());
@@ -32,6 +39,8 @@ public class Main extends JFrame {
                 cmd.execute();
             }
         });
+
+        
 
         clearButton.addActionListener(e -> {
             history.clear();

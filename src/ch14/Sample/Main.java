@@ -14,7 +14,7 @@ public class Main {
 
         // 다양한 트러블 발생
         for (int i = 0; i < 500; i += 33) {
-            alice.support(new Trouble(i));
+            alice.support(new Trouble(i));  // alice야 해결해라 ! 
         }
     }
 }

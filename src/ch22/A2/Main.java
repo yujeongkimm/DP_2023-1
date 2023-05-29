@@ -8,6 +8,9 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class Main extends JFrame implements MouseMotionListener, WindowListener {
+    /**
+     * 
+     */
     // 그리기 이력 
     private MacroCommand history = new MacroCommand();
     // 그리는 영역 
@@ -23,18 +26,27 @@ public class Main extends JFrame implements MouseMotionListener, WindowListener 
 
         this.addWindowListener(this);
         canvas.addMouseMotionListener(this);
+
+
+        /**
+         * 
+         */
         clearButton.addActionListener(e -> {
             history.clear();
             canvas.repaint();
         });
+        
+        // 
         undoButton.addActionListener(e -> {
             history.undo();
-            canvas.repaint();
+            canvas.repaint();   // paint() 호출 
         });
+
+
 
         Box buttonBox = new Box(BoxLayout.X_AXIS);
         buttonBox.add(clearButton);
-        buttonBox.add(undoButton);
+        buttonBox.add(undoButton);  //
         Box mainBox = new Box(BoxLayout.Y_AXIS);
         mainBox.add(buttonBox);
         mainBox.add(canvas);

@@ -23,10 +23,13 @@ public class MacroCommand implements Command {
         commands.push(cmd);
     }
 
+    /**
+     * 
+     */
     // 마지막 명령을 삭제
     public void undo() {
         if (!commands.isEmpty()) {
-            commands.pop();
+            commands.pop(); // 스택의 맨 위 원소를 꺼내옴 
         }
     }
 

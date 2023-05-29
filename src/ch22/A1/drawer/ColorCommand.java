@@ -16,6 +16,9 @@ public class ColorCommand implements Command {
     }
 
     // 실행 
+    /*
+     * 색깔 변경될 때 실행되는 코드
+     */
     @Override
     public void execute() {
         drawable.setColor(color);
