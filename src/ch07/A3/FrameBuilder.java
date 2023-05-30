@@ -23,6 +23,7 @@ public class FrameBuilder extends Builder {
     @Override
     public void makeItems(String[] items) {
         Box innerbox = new Box(BoxLayout.Y_AXIS);
+        
         for (String caption: items) {
             JButton button = new JButton(caption);
             button.addActionListener(e -> {
@@ -30,6 +31,7 @@ public class FrameBuilder extends Builder {
             });
             innerbox.add(button);
         }
+
         innerbox.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
         box.add(innerbox);
     }
@@ -38,6 +40,7 @@ public class FrameBuilder extends Builder {
     public void close() {
         frame.getContentPane().add(box);
         frame.pack();
+        
         frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 System.exit(0);

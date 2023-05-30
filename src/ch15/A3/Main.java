@@ -14,7 +14,7 @@ public class Main {
                 <h1 style="text-align: center">%s</h1>
             </body>
         </html>
-        """.formatted(title, message);
+            """.formatted(title, message);
         System.out.print(html);
     }
 }

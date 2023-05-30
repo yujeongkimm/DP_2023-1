@@ -2,6 +2,7 @@ package ch22.Sample.command;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Iterator;
 
 // 여러개의 명렁을 한 데 모인 명령
 public class MacroCommand implements Command {
@@ -11,8 +12,10 @@ public class MacroCommand implements Command {
     // 실행 
     @Override
     public void execute() {
+        //Iterator<Command> itr = commands.descendingIterator();
+         
         for (Command cmd: commands) {
-            cmd.execute();
+            cmd.execute();  // 내부적으로 iterator() 메소드를 호출해서 작동함 => 스택 top부터 꺼내옴 
         }
     }
 

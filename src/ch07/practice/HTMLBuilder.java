@@ -1,4 +1,4 @@
-package ch07.Sample;
+package ch07.practice;
 
 import java.io.*;
 
